@@ -10,10 +10,18 @@ export default function team() {
         <div className="grid md:grid-cols-3 gap-16">
           <div className="space-y-4">
             <a href="#" target="_blank" className="space-y-4">
-              <Image
+              {/* <Image
                 src="https://randomuser.me/api/portraits/men/1.jpg"
                 className="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56"
                 alt="Image"
+              /> */}
+
+              <Image
+                src="https://randomuser.me/api/portraits/men/1.jpg"
+                width={1250}
+                height={300}
+                alt="Image"
+                className="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56"
               />
 
               <h3 className="font-medium text-white text-2xl text-center">
@@ -63,9 +71,11 @@ export default function team() {
           <div className="space-y-4">
             <a href="#" target="_blank" className="space-y-4">
               <Image
-                src="https://randomuser.me/api/portraits/men/4.jpg"
-                className="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56"
+                src="https://randomuser.me/api/portraits/men/3.jpg"
+                width={1250}
+                height={300}
                 alt="Image"
+                className="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56"
               />
 
               <h3 className="font-medium text-white text-2xl text-center">
@@ -117,8 +127,10 @@ export default function team() {
             <a href="#" target="_blank" className="space-y-4">
               <Image
                 src="https://randomuser.me/api/portraits/men/7.jpg"
-                className="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56"
+                width={1250}
+                height={300}
                 alt="Image"
+                className="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56"
               />
 
               <h3 className="font-medium text-white text-2xl text-center">
@@ -169,9 +181,11 @@ export default function team() {
           <div className="space-y-4">
             <a href="#" target="_blank" className="space-y-4">
               <Image
-                src="https://randomuser.me/api/portraits/men/12.jpg"
-                className="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56"
+                src="https://randomuser.me/api/portraits/men/9.jpg"
+                width={1250}
+                height={300}
                 alt="Image"
+                className="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56"
               />
 
               <h3 className="font-medium text-white text-2xl text-center">
@@ -222,9 +236,11 @@ export default function team() {
           <div className="space-y-4">
             <a href="#" target="_blank" className="space-y-4">
               <Image
-                src="https://randomuser.me/api/portraits/women/1.jpg"
-                className="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56"
+                src="https://randomuser.me/api/portraits/men/10.jpg"
+                width={1250}
+                height={300}
                 alt="Image"
+                className="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56"
               />
 
               <h3 className="font-medium text-white text-2xl text-center">
@@ -275,9 +291,11 @@ export default function team() {
           <div className="space-y-4">
             <a href="#" target="_blank" className="space-y-4">
               <Image
-                src="https://randomuser.me/api/portraits/women/8.jpg"
-                className="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56"
+                src="https://randomuser.me/api/portraits/men/14.jpg"
+                width={1250}
+                height={300}
                 alt="Image"
+                className="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56"
               />
 
               <h3 className="font-medium text-white text-2xl text-center">
