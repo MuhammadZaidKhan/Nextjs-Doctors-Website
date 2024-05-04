@@ -52,7 +52,7 @@ export default function signup() {
           <div className="flex items-center justify-between mb-4">
             <button
               type="submit"
-              className="text-white bg-purple-600 hover:bg-purple-700 focus:ring-2 focus:ring-blue-300 font-medium rounded-lg text-sm py-2.5 px-5 w-full sm:w-auto"
+              className="text-white bg-green focus:ring-2 font-medium rounded-lg text-sm py-2.5 px-5 sm:w-auto"
             >
               Register
             </button>
