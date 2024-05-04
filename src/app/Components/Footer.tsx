@@ -1,9 +1,8 @@
 import React from "react";
-import line from "../assets/line.png";
 // import { Link } from "react-router-dom";
 const Footer = () => {
   return (
-    <div className="bg-[#080505] text-white pt-10">
+    <div className="bg-[#080505] pt-10 text-white">
       <hr />
       <div className="flex flex-col md:flex-row pb-16">
         <div className="pt-12 md:pl-16 flex justify-start pl-6">

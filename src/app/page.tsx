@@ -1,5 +1,3 @@
-// import Image from "next/image";
-// import { Text, Stack } from "@chakra-ui/react";
 import Image from "next/image";
 export default function Home() {
   return (
@@ -43,9 +41,11 @@ export default function Home() {
                 alt="Picture of the author"
                 className="rounded-lg"
               />
-              <button className="absolute mt-20 bg-green px-1 py-1 cursor-pointer font-Montserrat font-bold text-lg">
-                Diabetes Patient
-              </button>
+              <a href="/DiabetesPatient">
+                <button className="relative mt-20 bg-green hover:bg-emerald-900 px-1 py-1 cursor-pointer font-Montserrat font-bold text-lg">
+                  Diabetes Patient
+                </button>
+              </a>
             </div>
             <div className="relative md:w-52 md:h-44 w-72 h-52 flex justify-center items-center">
               <Image
@@ -55,9 +55,11 @@ export default function Home() {
                 alt="Picture of the author"
                 className="rounded-lg"
               />
-              <button className="absolute mt-20 bg-green px-1 py-1 cursor-pointer font-Montserrat font-bold text-lg">
-                Jaundice Patient
-              </button>
+              <a href="/DiabetesPatient">
+                <button className="relative mt-20 bg-green px-1 py-1 cursor-pointer font-Montserrat font-bold text-lg">
+                  Jaundice Patient
+                </button>
+              </a>
             </div>
             <div className="relative md:w-52 md:h-44 w-72 h-52 flex justify-center items-center">
               <Image
@@ -67,9 +69,11 @@ export default function Home() {
                 alt="Picture of the author"
                 className="rounded-lg"
               />
-              <button className="absolute mt-20 bg-green px-1 py-1 cursor-pointer font-Montserrat font-bold text-lg">
-                Flu Patient
-              </button>
+              <a href="/DiabetesPatient">
+                <button className="relative mt-20 bg-green px-1 py-1 cursor-pointer font-Montserrat font-bold text-lg">
+                  Flu Patient
+                </button>
+              </a>
             </div>
           </div>
           <div className="flex flex-col gap-y-6 md:flex-row gap-x-28">
@@ -81,9 +85,11 @@ export default function Home() {
                 alt="Picture of the author"
                 className="rounded-lg"
               />
-              <button className="absolute mt-20 bg-green px-1 py-1 cursor-pointer font-Montserrat font-bold text-lg">
-                Cough Patient
-              </button>
+              <a href="/DiabetesPatient">
+                <button className="relative mt-20 bg-green px-1 py-1 cursor-pointer font-Montserrat font-bold text-lg">
+                  Cough Patient
+                </button>
+              </a>
             </div>
             <div className="relative md:w-52 md:h-44 w-72 h-52 flex justify-center items-center">
               <Image
@@ -93,9 +99,12 @@ export default function Home() {
                 alt="Picture of the author"
                 className="rounded-lg"
               />
-              <button className="absolute mt-20 bg-green px-1 py-1 cursor-pointer font-Montserrat font-bold text-lg">
-                Weight Loss
-              </button>
+
+              <a href="/DiabetesPatient">
+                <button className="relative mt-20 bg-green px-1 py-1 cursor-pointer font-Montserrat font-bold text-lg">
+                  Weight Loss
+                </button>
+              </a>
             </div>
             <div className="relative md:w-52 md:h-44 w-72 h-52 flex justify-center items-center">
               <Image
@@ -105,9 +114,11 @@ export default function Home() {
                 alt="Picture of the author"
                 className="rounded-lg"
               />
-              <button className="absolute mt-20 bg-green px-1 py-1 cursor-pointer font-Montserrat font-bold text-lg">
-                Heart Attack
-              </button>
+              <a href="/DiabetesPatient">
+                <button className="relative mt-20 bg-green px-1 py-1 cursor-pointer font-Montserrat font-bold text-lg">
+                  Heart Attack
+                </button>
+              </a>
             </div>
           </div>
         </div>
@@ -120,7 +131,7 @@ export default function Home() {
       <div className="w-[180px] mx-auto border-b border-4 border-white mt-2"></div>
 
       <div className="flex justify-center mt-16">
-        <div className="grid md:grid-cols-2 gap-x-52 gap-y-10">
+        <div className="grid md:grid-cols-2 gap-x-52 gap-y-16">
           <div className="flex">
             <div className="flex h-10 w-10 items-center justify-center rounded bg-blue-900 text-gray-50">
               <svg

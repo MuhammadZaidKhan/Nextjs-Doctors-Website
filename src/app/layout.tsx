@@ -4,6 +4,7 @@ import "./globals.css";
 import { ChakraProvider } from "@chakra-ui/react";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
+import Whatsapp from "./Components/Whatsapp";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -20,6 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Navbar />
+        <Whatsapp />
         <ChakraProvider>{children}</ChakraProvider>
         <Footer />
       </body>
